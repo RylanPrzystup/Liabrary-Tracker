@@ -32,10 +32,11 @@ function addToEnd(){
     updateBookshelf()
 }
 function removeFromEnd(){
-    books.pop()
+    books.shift()
     updateBookshelf()
 }
 function removeFromFront(){
-    books.shift(1)
+    books.pop()
     updateBookshelf()
+
 }
